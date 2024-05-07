@@ -1,6 +1,7 @@
 body { 
     margin: 0 auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
 }
 .wrapper {
   max-width: 1200px;
@@ -47,8 +48,7 @@ nav ul li a {
 .intro .block1, .intro .block2 {
     display: inline-block; 
     font-size: 2em; 
-    line-height: 1.5em; 
-    font-weight: 200;
+    line-height: 1.5em;
     vertical-align: middle;
 }
 .block1 {
@@ -60,7 +60,6 @@ nav ul li a {
 }
 h2 {
     text-align: center;
-    font-weight: 200;
     color: #ed7c0d;
 }
 footer {
@@ -75,3 +74,8 @@ footer {
     padding: 25px 0;
 }
 footer a { padding: 0 15px; }
+p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-align: left;
+}
