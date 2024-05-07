@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body { 
     margin: 0 auto;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
     font-weight: 200;
 }
 .wrapper {
@@ -35,6 +38,7 @@ nav ul li a {
   color: black;
   font-size: 1.6rem;
   color: white;
+  font-weight: 400;
 }
 .title {
     padding-left: 100px;
@@ -47,8 +51,8 @@ nav ul li a {
 }
 .intro .block1, .intro .block2 {
     display: inline-block; 
-    font-size: 2em; 
-    line-height: 1.5em;
+    font-size: 1.5em; 
+    line-height: 1.8em;
     vertical-align: middle;
 }
 .block1 {
@@ -75,7 +79,26 @@ footer {
 }
 footer a { padding: 0 15px; }
 p {
-    font-size: 1.5em;
-    line-height: 1.5em;
+    font-size: 1.3em;
+    line-height: 1.8em;
     text-align: left;
+}
+.item {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #efefef;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+}
+.item img {
+    display: inline-block;
+    padding: 0 10px 0 0;
+}
+.inline {
+    display: inline-block;
+}
+.item:last-child {
+    margin-bottom: 150px;
 }
